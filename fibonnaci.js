@@ -1,10 +1,9 @@
-function fibonnaciSeq(n) {
-    const fib = [0, 1];
-    for (let i = 2; i < n; i++) {
-        fib[i] = fib[i - 1] + fib[i - 2];
-    }
-    return fib;
+function fibonnaciSeq(num) {
+  const fib = [0, 1];
+  for (let i = 2; i < num; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+  }
+  return fib;
 }
 
-const res = fibonnaciSeq(7);
-console.log(res)
+console.log(fibonnaciSeq(7));
